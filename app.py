@@ -122,7 +122,7 @@ for a in range(1,no+1):
     def getG():
         list3 = [1,2]
         y = (random.choice(list3))
-        return 
+        return y
     y = getG()
     if y == 1:
         dept = web.find_element_by_xpath(path1)
@@ -162,7 +162,7 @@ for a in range(1,no+1):
     time.sleep(1)
     web.close()
 
-    "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+    
 
     print(pygments.console.colorize("red","Successfully submitted a {a} forms".format(a = a)))
     time_gap = random.choice(time_gaps)
